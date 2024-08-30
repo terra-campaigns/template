@@ -8,6 +8,23 @@ permalink: pretty
 plugins:
   - jekyll-relative-links
 
+collections_dir: directory
+
+collections:
+  npcs:
+    output: true
+  locations:
+    output: true
+
+just_the_docs:
+  collections:
+    npcs:
+      name: NPCs
+      nav_fold: true
+    locations:
+      name: Locations
+      nav_fold: true
+
 aux_links:
   Repository: https://github.com/terra-campaigns/template
 
