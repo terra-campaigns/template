@@ -1,4 +1,15 @@
-# just-the-docs-template
+---
+title: Home
+layout: home
+nav_order: 1
+permalink: /
+
+
+footer_content: 
+
+---
+
+# Terra Campaigns Template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
@@ -156,6 +167,61 @@ The GitHub Actions workflow that builds and deploys your site to Github Pages is
 This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
 
 The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
+
+---
+
+# Game Summary
+
+Summarise and give links for understanding the game.
+
+## Themes
+
+Define themes.
+
+## Aesthetic
+
+Define aesthetics.
+
+## Relevant history
+
+
+## Relevant locations
+
+
+# GM content
+
+Procedural content generation.
+
+# This Repository
+
+This repository contains all necessary game documents.
+It is also from this Repository that this website is published.
+
+## Contribute
+
+Feel free to suggest edits on any files on this repo through Pull Requests.
+Merged Pull Requests automatically builds the website.
+
+If you want to localhost the website for testing purposes, you need to install jekyll ([instructions for macOS](https://jekyllrb.com/docs/installation/macos/)). After doing so, navigate to the repository folder and execute the following commands;
+
+```
+echo '3.1.3' >> .ruby-version
+gem install bundler jekyll
+bundle install
+```
+
+You are now able to localhost the website.
+You can do so by:
+
+```
+bundle exec jekyll serve
+```
+
+and then browse to http://localhost:4000.
+
+You can make real time changes in the files, and see result live on your browser.
+
+
 
 ----
 
