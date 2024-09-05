@@ -1,10 +1,21 @@
 ---
 layout: default
-title: Examples
-parent: Campaign
+title: The Frostbreaker
+parent: mRNA Probe
 nav_order: 1
+
+timestamp: 
+realm: NEZ
 
 ---
 
 # Name
+
+> {{ page.timestamp }}, {{ page.realm}}
+
+
+---
+#### Connected to
+
+<!-- QueryToSerialize: LIST without ID "["+ title + "](https://terra-campaigns.github.io/"+ regexreplace(file.path, ".md", "") + ")" + ", from " + regexreplace(file.folder, "hostile/", "") FROM ([[]]) OR outgoing([[]]) WHERE file.name != this.file.name SORT file.folder DESC -->
 
