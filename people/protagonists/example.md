@@ -2,6 +2,7 @@
 layout: default
 title: Example
 parent: Party
+grand_parent: People
 
 ---
 # Example pc
