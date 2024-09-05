@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Locations
+title: Factions
 has_children: true
-nav_order: 50
+nav_order: 60
 
 ---
 
-# Locations
+# Factions
+
