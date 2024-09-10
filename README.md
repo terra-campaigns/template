@@ -18,7 +18,7 @@ Define themes.
 
 ## Timeline
 
-<!-- QueryToSerialize: LIST without ID timestamp + ", " + sector + ": " + "["+ title + "](https://terra-campaigns.github.io/"+ regexreplace(file.path, ".md", "") + ") (" + parent + ")" FROM "hostile/chapters" SORT timestamp, nav_order asc -->
+<!-- QueryToSerialize: LIST without ID region + ", " + timestamp + ": " + "["+ title + "](https://terra-campaigns.github.io/"+ regexreplace(file.path, ".md", "") + ") (" + parent + ")" FROM "hostile/chapters" SORT timestamp, nav_order asc -->
 
 ---
 
