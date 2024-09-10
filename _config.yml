@@ -7,6 +7,7 @@ url: https://github.com/terra-campaigns/template
 permalink: pretty
 plugins:
   - jekyll-relative-links
+  - jekyll-redirect-from
 
 aux_links:
   Repository: https://github.com/terra-campaigns/template
