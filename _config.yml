@@ -12,6 +12,8 @@ plugins:
 aux_links:
   Repository: https://github.com/terra-campaigns/template
 
+color_scheme: dark
+
 # External navigation links
 #nav_external_links:
 #  - title: Terra Odd SRD
