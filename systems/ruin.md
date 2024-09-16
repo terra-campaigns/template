@@ -1,10 +1,3 @@
----
-layout: default
-title: Ruin
-parent: Systems
-nav_exclude: true
+## Ruin
 
-footer_content: 
----
-
-# Ruin
+Ruin rules, if applicable
