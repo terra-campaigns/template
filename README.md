@@ -1,34 +1,6 @@
----
-title: Home
-layout: home
-nav_order: 1
-permalink: /
+# Terra Campaigns Template
 
-footer_content: 
-
----
-
-# Setting name
-
-Summarise and give links for understanding the game.
-
-## Themes
-
-Define themes.
-
-## Timeline
-
-<!-- QueryToSerialize: LIST without ID region + ", " + timestamp + ": " + "["+ title + "](https://terra-campaigns.github.io/"+ regexreplace(file.path, ".md", "") + ") (" + parent + ")" FROM "hostile/chapters" SORT timestamp, nav_order asc -->
-
----
-
-# GM content
-
-Procedural content generation.
-
----
-
-# This Repository
+> ***Including template modular system***
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
@@ -131,6 +103,10 @@ Merged Pull Requests automatically builds the website.
 This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
 
 The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
+
+
+# Architecture
+
 
 ----
 
