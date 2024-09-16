@@ -1,6 +1,22 @@
-# Changelog
+---
+layout: default
+title: CHANGELOG
+nav_order: 999
 
-#### v0.3.0
+---
+
+# CHANGELOG
+
+<details close markdown="block">
+  <summary id="index">
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+## v0.3.0
 
 - **Modularisation**: Modules are now part of include files
 - **Merged TerraOdd into Templates**:Templated folder structure and aesthetics
@@ -12,7 +28,7 @@
 	- Updated Gems
 	- Folders with new structure with index files
 
-#### v0.2.1
+## v0.2.1
 
 - New:
 	- Added placeholder for Systems
@@ -20,14 +36,13 @@
 	- Saves - task resolution and adv/disadv
 	- Sync gems and actions from [https://github.com/terra-campaigns/template](https://github.com/terra-campaigns/template) for aligned deployment.
 
-#### v0.2.0
+## v0.2.0
 
 - **Modularisation**: Backgrounds, Bonds, Ruin (Woes) and Creatures are modularised out of the SRD and will be maintained on each game repository.
 	- Degenesis content is moved to [https://terra-campaigns.github.io/degenesis/](https://terra-campaigns.github.io/degenesis/).
 - Updates from upstream Cairn
 
-
-#### v0.1.2
+## v0.1.2
 
 - Changed:
 	- Reframed **Clans** **Potentials** (previously Feats) to Cairn's Spells Framework
@@ -35,7 +50,7 @@
 	- Improved the result of ingesting Burn for attribute increase
 - Text improvements
 
-#### v0.1.1
+## v0.1.1
 
 - New:
 	- Added mutation tables (**Woes**)
@@ -46,8 +61,7 @@
 - Removed: Changes on **Scars**, reinstated Cairn's
 - Text improvements
 
-
-#### v0.1.0
+## v0.1.0
 
 **Forked [Cairn](https://cairnrpg.com/hacks/fork-this/).**
 
