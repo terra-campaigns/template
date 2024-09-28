@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Example
-parent: Party
-grand_parent: People
+parent: People
 
 ---
 # Example pc
 
-- text and images
-- character sheet
+text and images
 
 ---
 #### Connected to
