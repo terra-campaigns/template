@@ -26,8 +26,6 @@ footer_content: System mechanics licensed under <a href=\"https://creativecommon
 
 {% include_relative bonds.md %}
 
-# Rules
-
 {% include srd_modules/attributes.md %}
 
 {% include srd_modules/hp.md %}
@@ -47,8 +45,6 @@ footer_content: System mechanics licensed under <a href=\"https://creativecommon
 {% include srd_modules/dieoffate.md %}
 
 {% include srd_modules/combat.md %}
-
-{% include srd_modules/ruin.md %}
 
 {% include srd_modules/scars.md %}
 

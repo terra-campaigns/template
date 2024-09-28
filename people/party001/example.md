@@ -1,17 +1,12 @@
 ---
 layout: default
-title: Name
-parent: Campaign
-nav_order: 1
-
-timestamp: 
-region: 
+title: Example
+parent: Party 1
 
 ---
+# Example pc
 
-# Name
-
-> {{ page.region}}, {{ page.timestamp }} 
+text and images
 
 ---
 #### Connected to

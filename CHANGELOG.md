@@ -16,6 +16,13 @@ nav_order: 999
 {:toc}
 </details>
 
+## v0.3.1
+
+- Added: Aesthetics modular settings
+- Changed:
+	- Updated modules' headings and TOC
+	- General navigation set up in code
+
 ## v0.3.0
 
 - **Modularisation**: Modules are now part of include files

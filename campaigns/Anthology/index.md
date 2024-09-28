@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Campaign
+title: Anthology
 has_children: true
-nav_order: 10
+nav_order: 44
 
 footer_content: 
 
 ---
 
-# Campaign Example
+# Anthology
 
 
