@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Example
-parent: People
+parent: Party 1
 
 ---
 # Example pc
