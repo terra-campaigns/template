@@ -12,7 +12,7 @@ plugins:
 aux_links:
   Repository: https://github.com/terra-campaigns/template
 
-color_scheme: dark
+favicon_ico: "/imgs/favicon.ico"
 
 # External navigation links
 #nav_external_links:
