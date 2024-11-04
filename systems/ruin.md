@@ -1,3 +1,3 @@
-## Ruin
+# Ruin
 
 Ruin rules, if applicable

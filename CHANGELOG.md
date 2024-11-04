@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CHANGELOG
-nav_order: 999
+nav_exclude: TRUE
 
 ---
 
@@ -15,6 +15,46 @@ nav_order: 999
 - TOC
 {:toc}
 </details>
+
+## v0.4.3
+
+- Added:
+	- Template PC statblock
+	- Rule for being exposed (0 HP)
+- Changed:
+	- Equipment tags updated
+- Removed:
+	- LICENSE file
+- Under the hood:
+	- Colour scheme is mapped in config.yaml
+	- Simpler CSS
+	- New Campaign, People, Creatures and Locations structure
+
+## v0.4.2
+
+- Changed:
+	- Width of Nunito font
+- Under the hood:
+	- Templated timeline links for campaigns
+
+## v0.4.1
+
+- Changed: Font is now Nunito
+- Under the hood:
+	- New href for redirect_to are dynamic, and removed TOC from systems/index
+	- Updated connected_to template (v0.2)
+
+## v0.4.0
+
+- Added:
+	- Credits to Mark of the Odd
+	- Attribute loss text
+	- Include for PCs and NPCs to use metadata
+	- Templated "connected_to" Obsidian function
+- Changed:
+	- Scar 3 only adds 1d4 to HP (from Monolith)
+	- Improved PC statblocks, and link to frontmatter
+- Removed: Inventory (Burdens)
 
 ## v0.3.1
 

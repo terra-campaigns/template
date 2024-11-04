@@ -33,7 +33,7 @@ Weapons also may have tags.
 
 |            |                                                           |
 | ---------- | --------------------------------------------------------- |
-| *Bulky*    | Takes 2 burdens and needs 2 hands                         |
+| *Bulky*    | Needs 2 hands                                             |
 | *Advanced* | Ignore non-advanced Armour                                |
 | *Blast*    | Harms multiple opponents (roll damage die for the number) |
 
@@ -43,10 +43,10 @@ Armours can be
 
 |     |            |                                    |
 | :-: | ---------- | ---------------------------------- |
-|  1  | **Light**  | *Bulky*.                           |
+|  1  | **Light**  |                                    |
 |  2  | **Medium** | *Bulky*.                           |
 |  3  | **Heavy**  | *Bulky*, noisy, reduced awareness. |
-| +1  | **Shield** |                                    |
+| +1  | **Shield** | Occupies one hand.                 |
 	
 ## Attack Modifiers
 {: .no_toc }
