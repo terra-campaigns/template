@@ -12,7 +12,7 @@ has_toc: false
 
 After rolling or choosing your Background, roll on each of the included tables from it.
 
-|     |                                      |
-| --- | ------------------------------------ |
-| 1:6 | [Example](backgrounds/half-witch.md) |
+|     |         |
+| --- | ------- |
+| 1:6 | Example |
 
