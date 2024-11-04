@@ -1,16 +1,21 @@
 ---
 layout: default
-title: Party 1
+title: party001
 parent: People
 has_children: true
-nav_order: 1
 
 ---
 
-# Vostok's Scouts
+# {{ page.title }}
 
 
 ---
 #### Connected to
+{: .no_toc }
 
-<!-- QueryToSerialize: LIST without ID "["+ title + "](https://terra-campaigns.github.io/"+ regexreplace(file.path, ".md", "") + ")" + ", from " + regexreplace(file.folder, "degenesis/", "") FROM ([[]]) OR outgoing([[]]) WHERE file.name != this.file.name AND file.name != "directory" AND file.name != "campaigns" WHERE file.name != "index" SORT file.folder DESC -->
+<!-- QueryToSerialize: LIST without ID "["+ title + "](https://terra-campaigns.github.io/" + regexreplace(file.path, ".md", "") + ")" + ", from " + regexreplace(file.folder, "^[^\/]*\/", "") FROM ([[]]) OR outgoing([[]]) WHERE file.path != this.file.path SORT file.folder DESC -->
+
+
+{% comment %}
+connected_to v0.1
+{% endcomment %}
