@@ -5,20 +5,9 @@ has_children: true
 has_toc: false
 nav_order: 99
 
-footer_content: System mechanics licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC-BY-SA 4.0</a>.
-
 ---
 
 {% include srd_modules/srd_version.md %}
-
-<details close markdown="block">
-  <summary id="index">
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 
 # Character Creation
 
@@ -31,8 +20,6 @@ footer_content: System mechanics licensed under <a href=\"https://creativecommon
 {% include srd_modules/hp.md %}
 
 {% include srd_modules/saves.md %}
-
-{% include srd_modules/burdens.md %}
 
 {% include srd_modules/healing.md %}
 
