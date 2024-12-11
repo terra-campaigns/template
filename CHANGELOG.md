@@ -16,6 +16,13 @@ nav_exclude: TRUE
 {:toc}
 </details>
 
+## v0.4.4-deg
+
+- Added: include for backgrounds
+- Changed:
+	- New nav_footer
+	- connected_to now has possibility of a back image
+
 ## v0.4.3
 
 - Added:
