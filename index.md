@@ -18,3 +18,5 @@ Define themes.
 ## Timeline
 
 <!-- QueryToSerialize: LIST without ID region + ", " + timestamp + ": " + "["+ title + "](https://terra-campaigns.github.io/"+ regexreplace(file.path, ".md", "") + ") (" + parent + ")" FROM "hostile/chapters" SORT timestamp, nav_order asc -->
+
+{% include prefooter_campaign.html %}
