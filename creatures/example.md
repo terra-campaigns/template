@@ -1,33 +1,35 @@
 ---
+template: npc v0.3
 layout: default
-title: Example
+title: Migrants
+role: The true rulers of Pollen are the Biokinetics. These Aberrants exhibit incredible shape-shifting abilities and display physical prowess that blurs the line with the supernatural. The most common forms are Migrants, Biokinetics breaking out across the plains to seed new spore fields and spread the Sepsis westwards, thus expanding their Chakra’s area of influence.
 parent: Creatures
 
-hp: d6
-armour: 0
-str: 3d6
-dex: 3d6
-wil: 3d6
-at: weapon (dX)
+image: https://img2.storyblok.com/0x0/filters:quality(99):format(webp)/f/72501/5517x3300/4675ce01f7/pollen-migrants.jpg
 
-bullets:
-  - ...
+statblock: true
+hp: 14
+armour: 2
+str: 18
+dex: 12
+wil: 7
+at: bite (d4, 1 infestation) and heavy axe (d8+d8)
 
-image: 
-
-flavour:
-  - ...
----
-
-{% include statblock_npc.md %}
+details:
+- Shape-shifting abilities and physical prowess, blurs the line with the supernatural
+- Avoid areas with methane gas and open flames
+- "**Critical Damage**: A large chuck of flesh is infested with Sepsis (d6 infection)"
+- "**Blossom**: Kills itself and spread Sepsis infection (d8 *blast* infestation)"
 
 ---
-#### Connected to
-{: .no_toc }
 
-<!-- QueryToSerialize: LIST without ID "["+ title + "](https://terra-campaigns.github.io/" + regexreplace(file.path, ".md", "") + ")" + ", from " + regexreplace(file.folder, "^[^\/]*\/", "") FROM ([[]]) OR outgoing([[]]) WHERE (file.path != this.file.path AND title != null) SORT file.folder DESC -->
+{% include statblock_npc.html %}
 
+{% comment %} =========== HIDDEN TEXT ===========
 
-{% comment %}
-connected_to v0.2
-{% endcomment %}
+[Pollen](https://degenesis.com/world/cultures/pollen)
+
+- hidden bullet 1
+- hidden bullet 2
+
+========== HIDDEN ENDS ========= {% endcomment %}

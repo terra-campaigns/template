@@ -16,6 +16,23 @@ nav_exclude: TRUE
 {:toc}
 </details>
 
+## v0.4.4
+
+- Added
+  - include for backgrounds
+  - Campaign prefooter, with timeline built in Jekyll
+  - Cairn procedures
+- Changed:
+  - Critical Damage now takes a wound, from Liminal Horror
+  - Burdens is deprecated, and Fatigue tracks current WIL
+  - Statblocks for locations, NPCs and PCs
+  - New nav_footer
+  - connected_to is a Jekyll liquid implementation with a Python-build connection graph in yml
+- Under the hood:
+  - ruby version upgrade
+- Fixed:
+  - redirects on System
+
 ## v0.4.3
 
 - Added:
