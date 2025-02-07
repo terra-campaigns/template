@@ -15,9 +15,11 @@ On their turn, a character may move up to 40ft and take up to one action. This m
 ## Attacking & Damage
 {: .no_toc }
 
-- The attacker rolls their weapon die and subtracts the target's armor, then deals the remaining total to their opponent's HP. Attacks in combat automatically hit.
+- The attacker rolls their weapon die and subtracts the target's **Armour**, then deals the remaining total to their opponent's **HP**. Attacks in combat automatically hit.
 - If multiple attackers target the same foe, roll all damage dice and keep the single highest result. All actions are declared before being resolved.
-- If an attack would take a PC's HP exactly to 0, refer to the [Scars](#scars-table) table to see how they are uniquely impacted.
+- If an attack would take a PC's **HP** exactly to 0, refer to the [Scars](#scars-table) table to see how they are uniquely impacted.
+
+## Weapons
 
 Weapons have a damage die.
 
@@ -31,15 +33,19 @@ Weapons have a damage die.
 
 Weapons also may have tags.
 
-|            |                                                           |
-| ---------- | --------------------------------------------------------- |
-| *Bulky*    | Needs 2 hands                                             |
-| *Advanced* | Ignore non-advanced Armour                                |
-| *Blast*    | Harms multiple opponents (roll damage die for the number) |
+|              |                                                           |
+| ------------ | --------------------------------------------------------- |
+| *Bulky*      | Needs 2 hands                                             |
+| *Advanced*   | Ignore non-advanced Armour                                |
+| *Blast*      | Harms multiple opponents (roll damage die for the number) |
+| *Non-lethal* | Targets DEX after HP                                      |
 
 For ranges, use what is narratively appropriate.
 
-Armours can be
+## Armours
+
+- Shields and similar armour provide a bonus defence (e.g. +1 Armour), but only while the item is held or worn. Some may also provide additional benefits, depending on the fiction.
+- A PC, NPC, or monster cannot have more than 3 Armour.  
 
 |     |            |                                    |
 | :-: | ---------- | ---------------------------------- |
@@ -52,21 +58,20 @@ Armours can be
 {: .no_toc }
 
 - If fighting from a position of weakness (such as through cover or with bound hands), the attack is _Impaired_, and the attacker must roll 1d4 damage regardless of the attacks damage die. Unarmed attacks always do d4 damage.
-- If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is _Enhanced_, allowing the attacker to roll 1d12 damage instead of their normal die.
+- If fighting from a position of advantage (such as against a helpless foe or through a daring manoeuvre), the attack is _Enhanced_, allowing the attacker to roll 1d12 damage instead of their normal die.
 - Attacks with the _Blast_ quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon’s breath or the impact of a meteorite. If unsure how many targets can be affected, _roll the related damage die for a result_.
 - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g. d8+d8).
 
 ## Critical Damage
 {: .no_toc }
 
-- Damage that reduces a target's HP below zero is subtracted _from their STR_ by the amount of damage remaining. The target must then immediately make a STR save to avoid taking **Critical Damage**, using their _new STR score_. On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.
-- Any PC that suffers Critical Damage cannot do anything but crawl weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical Damage save are considered dead, per the **Warden's** discretion. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save. 
+- Damage that reduces a target's HP below zero is subtracted _from their **STR**_ by the amount of damage remaining. The target must then immediately make a **STR** save to avoid taking **Critical Damage**, using their _new **STR** score_. On a success, the target is still in the fight (albeit with a lower **STR** score) and must continue to make critical damage saves when incurring damage.
+- When a PC suffers **Critical Damage**, look up the damage die result on the Wounds Table. NPCs and monsters that fail a **Critical Damage** save may be considered dead, per the **Warden's** discretion. Additionally, some enemies have special abilities or effects that are triggered when their target fails a **Critical Damage** save.
 
-## Attribute Loss
-{: .no_toc }
+![](https://raw.githubusercontent.com/terra-campaigns/degenesis/refs/heads/main/imgs/woundTbl.png)
 
-- If a PC takes damage outside of combat, they should instead receive damage to an Attribute, typically STR.
-- If a PC's STR is reduced to 0, they die. If their DEX is reduced to 0, they are paralyzed. If their WIL is reduced to 0, they are delirious. Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means.
+> The Wound Table is copied from the [Liminal Horror](https://liminalhorrorrpg.com/) SRD, available under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+> {: .fs-2 }
 
 ## Character Death
 {: .no_toc }

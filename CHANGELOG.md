@@ -16,8 +16,64 @@ nav_exclude: TRUE
 {:toc}
 </details>
 
+## v0.6.0
+
+- **Project Choro**
+- Version sync with [template](https://github.com/terra-campaigns/template)
+- Changed: Overhauled Conditions rules.
+
+## v0.5.0-deg
+
+- **Directory**: People, factions and locations are now part of a Directory section
+- Added:
+	- Carousing procedures
+- Changed:
+	- Creatures is part of Systems
+- Removed:
+	- armour include is now part of combat include
+- Under the hood
+	- Updated gems
+
+## v0.4.7-deg
+
+- Added:
+	- Character creation: Added existing connection with other PCs
+	- Deceased tag for people, and In Memorian section
+- Changed:
+	- Minimal changes in attribute loss descriptions
+	- Failed critical damage save gives a wound, not taking you out of combat (necessarily)
+- Under the hood: broken links
+
+## v0.4.6-deg
+
+- Changed
+	- Description of Attributes
+- Under the hood
+	- Updated gems 
+	- Improved statblocks templates
+
+## v0.4.5-deg
+
+- Added:
+	- Critical damage table (from Liminal Horror)
+	- WIP space for new test rules
+	- Redirects for system headings
+- Changed:
+	- Versioned include for PCs and NPCs
+	- General heading levels of system
+	- Consolidated attribute loss (combat and attribute includes affected)
+	- Removed Cairn specific rules for NPCs
+
+## v0.4.4-deg
+
+- Added: include for backgrounds
+- Changed:
+	- New nav_footer
+	- connected_to now has possibility of a back image
+
 ## v0.4.3
 
+- Version sync with [template](https://github.com/terra-campaigns/template)
 - Added:
 	- Template PC statblock
 	- Rule for being exposed (0 HP)
@@ -30,23 +86,28 @@ nav_exclude: TRUE
 	- Simpler CSS
 	- New Campaign, People, Creatures and Locations structure
 
-## v0.4.2
+## v0.4.2-deg
 
 - Changed:
 	- Width of Nunito font
 - Under the hood:
 	- Templated timeline links for campaigns
 
-## v0.4.1
+## v0.4.1-deg
 
-- Changed: Font is now Nunito
+- Changed:
+	- Font is now Nunito
+	- Integrating Cultures and Backgrounds
 - Under the hood:
 	- New href for redirect_to are dynamic, and removed TOC from systems/index
 	- Updated connected_to template (v0.2)
+	- Removed unused images (legacy)
 
-## v0.4.0
+## v0.4.0-deg
 
+- Named the system: **Primal Odd**, and new logo
 - Added:
+	- Ruin: New Sepsis infestation sub system, aligned with MOTO
 	- Credits to Mark of the Odd
 	- Attribute loss text
 	- Include for PCs and NPCs to use metadata
@@ -54,7 +115,8 @@ nav_exclude: TRUE
 - Changed:
 	- Scar 3 only adds 1d4 to HP (from Monolith)
 	- Improved PC statblocks, and link to frontmatter
-- Removed: Inventory (Burdens)
+- Removed:
+	- Inventory (Burdens)
 
 ## v0.3.1
 
@@ -66,7 +128,7 @@ nav_exclude: TRUE
 ## v0.3.0
 
 - **Modularisation**: Modules are now part of include files
-- **Merged TerraOdd into Templates**:Templated folder structure and aesthetics
+- **Merged TerraOdd into Templates**: Templated folder structure and aesthetics
 - Added:
 	- 404.html
 - Changed:
@@ -93,8 +155,6 @@ nav_exclude: TRUE
 
 - Changed:
 	- Reframed **Clans** **Potentials** (previously Feats) to Cairn's Spells Framework
-	- Unrelated **Clans** to **Scars** for Spitalians and Scrapers
-	- Improved the result of ingesting Burn for attribute increase
 - Text improvements
 
 ## v0.1.1
@@ -102,7 +162,6 @@ nav_exclude: TRUE
 - New:
 	- Added mutation tables (**Woes**)
 	- Exposed Cairn's procedures
-	- Completed Anabaptists (new approach to rank and feats)
 - Changed: Archetypes are now **Bonds**.
 - Fixed: Broken navigation
 - Removed: Changes on **Scars**, reinstated Cairn's
@@ -115,10 +174,7 @@ nav_exclude: TRUE
 - New:
 	- New landing page / `README`
 	- Characters and Rules based on Cairn 2e
-	- Added **Background**:
-		- Spitalians
-		- Scrapers
-	- Added placeholders for remaining Borcan clans.
+	- Added **Background**
 	- Added archetypes, to support behaviour choices
 	- Tables for weapons and armour sizes and modifiers
 	- Added **Woe** mechanic (not modularised yet)
@@ -142,4 +198,3 @@ nav_exclude: TRUE
 	- Added directions for localhosting
 	- Adopted font choices from [Terra System](https://terra-campaigns.github.io/terraSystem/)
 	- Added this Changelog
-	- Copyright notes for Degenesis material, when needed
