@@ -47,7 +47,6 @@ has_toc: false
   </tr>
 </table>
 
-
 ## Locations
 
 <table style="width:100%">
@@ -63,7 +62,3 @@ has_toc: false
     </td>
   </tr>
 </table>
-
-### World Map
-
-<iframe style="border: 0; width:100%; height: 800px; overflow: auto;" src="https://degenesis.com/world/map/"></iframe>

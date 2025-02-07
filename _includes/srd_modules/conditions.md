@@ -1,7 +1,5 @@
 # Conditions
 
-> Replaces [Deprivation & Fatigue](https://terra-campaigns.github.io/degenesis/systems/#deprivation--fatigue)
-
 ## Deprivation
 
 - A PC that lacks a crucial need (such as food or rest in a safe spot) is **Deprived**.

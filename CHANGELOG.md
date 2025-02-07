@@ -18,6 +18,7 @@ nav_exclude: TRUE
 
 ## v0.6.0
 
+- **Project Choro**
 - Version sync with [template](https://github.com/terra-campaigns/template)
 - Changed: Overhauled Conditions rules.
 
@@ -28,7 +29,6 @@ nav_exclude: TRUE
 	- Carousing procedures
 - Changed:
 	- Creatures is part of Systems
-	- Adding equipment to bonds: Amnesiac, Adventurer, Martyr, Seeker, Mediator, Hermit, Destroyer, Chosen, Protector, Visionary & Traveller.
 - Removed:
 	- armour include is now part of combat include
 - Under the hood
@@ -42,7 +42,6 @@ nav_exclude: TRUE
 - Changed:
 	- Minimal changes in attribute loss descriptions
 	- Failed critical damage save gives a wound, not taking you out of combat (necessarily)
-	- Ruin: swapped the d4 with d6 for sporination
 - Under the hood: broken links
 
 ## v0.4.6-deg
@@ -114,7 +113,6 @@ nav_exclude: TRUE
 	- Include for PCs and NPCs to use metadata
 	- Templated "connected_to" Obsidian function
 - Changed:
-	- Background (Cults and Clans) is also influenced by Culture
 	- Scar 3 only adds 1d4 to HP (from Monolith)
 	- Improved PC statblocks, and link to frontmatter
 - Removed:
@@ -157,8 +155,6 @@ nav_exclude: TRUE
 
 - Changed:
 	- Reframed **Clans** **Potentials** (previously Feats) to Cairn's Spells Framework
-	- Unrelated **Clans** to **Scars** for Spitalians and Scrapers
-	- Improved the result of ingesting Burn for attribute increase
 - Text improvements
 
 ## v0.1.1
@@ -166,7 +162,6 @@ nav_exclude: TRUE
 - New:
 	- Added mutation tables (**Woes**)
 	- Exposed Cairn's procedures
-	- Completed Anabaptists (new approach to rank and feats)
 - Changed: Archetypes are now **Bonds**.
 - Fixed: Broken navigation
 - Removed: Changes on **Scars**, reinstated Cairn's
@@ -179,10 +174,7 @@ nav_exclude: TRUE
 - New:
 	- New landing page / `README`
 	- Characters and Rules based on Cairn 2e
-	- Added **Background**:
-		- Spitalians
-		- Scrapers
-	- Added placeholders for remaining Borcan clans.
+	- Added **Background**
 	- Added archetypes, to support behaviour choices
 	- Tables for weapons and armour sizes and modifiers
 	- Added **Woe** mechanic (not modularised yet)
@@ -206,4 +198,3 @@ nav_exclude: TRUE
 	- Added directions for localhosting
 	- Adopted font choices from [Terra System](https://terra-campaigns.github.io/terraSystem/)
 	- Added this Changelog
-	- Copyright notes for Degenesis material, when needed

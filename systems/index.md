@@ -9,8 +9,6 @@ nav_order: 99
 
 {% include srd_modules/srd_version.md %}
 
-{% include srd_modules/srd_version.md %}
-
 {% include srd_modules/character-creation.md %}
 
 {% include_relative bonds.md %}
